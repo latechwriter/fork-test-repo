@@ -64,28 +64,28 @@ The Cygwin software suite contains a large number of Linux packages, compiled
 to run in their own environment in Windows.  We will use a rather basic setup
 with the only addition being the Python interpreter.
 
-* Download the Cygwin install program from the `Cygwin <https://cygwin.com/install.html>`_ website.
+Download the Cygwin install program from the `Cygwin <https://cygwin.com/install.html>`_ website.
 
-* Run the program to install it.  During the setup, select to "Install from
-  Internet", and the remaining default settings are fine.  Select a download site
-  that sounds like it may be close to you, otherwise the mirrors.kernel.org
-  selection is a good default.
+Run the program to install it.  During the setup, select to "Install from
+Internet", and the remaining default settings are fine.  Select a download site
+that sounds like it may be close to you, otherwise the mirrors.kernel.org
+selection is a good default.
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-cygwin-install-python.png
 
-* Select the packages to install.  The default packages are sufficient however
-  python needs to be added.  In the search box type "python", and then under
-  "Interpreters" find "python" and click on "Skip" to have it change to a version
-  instead like shown below.
+Select the packages to install.  The default packages are sufficient however
+python needs to be added.  In the search box type "python", and then under
+"Interpreters" find "python" and click on "Skip" to have it change to a
+version like shown above.
 
 Continue the rest of the install selecting the defaults.
 
-* Our cygwin install needs python "pip", which isn't available in a package.
-  Download the `get-pip.py <https://bootstrap.pypa.io/get-pip.py>`_ file by
-  right-clicking and saving the file to your downloads directory.
+Our cygwin install needs python "pip", which isn't available in a package.
+Download the `get-pip.py <https://bootstrap.pypa.io/get-pip.py>`_ file by
+right-clicking and saving the file to your downloads directory.
 
-* Open the "Cygwin64 Terminal" application, and install pip by running the .py
-  file with python and replacing USERNAME with your Windows user name.
+Open the "Cygwin64 Terminal" application, and install pip by running the .py
+file with python and replacing USERNAME with your Windows user name.
 
 .. code:: bash
 
@@ -93,7 +93,7 @@ Continue the rest of the install selecting the defaults.
 
 It should show some progress bars and then complete the install on its own.
 
-* You can now install tox, the tool we did all the previous steps to get:
+You can now install tox, the tool we did all the previous steps to get:
 
 .. code:: bash
 
@@ -112,14 +112,13 @@ for both Windows and Mac systems.
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step1.png
 
 After installation, you will be asked to setup your GitHub client.  First,
-enter your user and password for the GitHub website:
+enter your user and password for the GitHub website.
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step2.png
 
-The second page wants details about your GitHub name and email address:
+The second page wants details about your GitHub name and email address.
 
-and the last window wants repositories selected, and it is fine
-to skip this step.
+The last window wants repositories selected, and it is fine to skip this step.
 
 Fork and clone the repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -194,12 +193,12 @@ to verify.
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-tox-syntax-error.png
 
 If there are errors, the output will give you details on where to look for
-them.  Here is an example of a purposely broken title in a file:
+them.  Here is an example of a purposely broken title in a file.
 
 The second line points the the file that has an error, the ":1:" indicates
 the line number that has the error, and the reason for the error at the end.
 
-The text is also outputted that contains the error, in this case the title
+The text is also displayed that contains the error, in this case the title
 should have "=" the full length of the title.  It could be fixed, and then
 "tox" ran again until all errors are corrected.
 
@@ -208,14 +207,14 @@ Commit your change
 
 Open the GitHub desktop application, and when the repo is selected it will show
 what files have been changed.  If something was inadvertently changed,
-right-click it and select discard changes.  A diff of the changes made appear
+right-click it and select discard changes.  A diff of the changes appear
 on the right pane of the client.  If everything looks correct, it is time to do
 a commit.
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step6.png
 
 Give the commit a name, and a comment and then click the "Commit to master"
-button:
+button.
 
 Submit a pull request
 ~~~~~~~~~~~~~~~~~~~~~
@@ -228,7 +227,7 @@ the owners are the DreamHost Knowledge Base team and DreamHost Cloud team.
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step7.png
 
 Give the pull request a name, a comment, and then click the "Send pull request"
-button:
+button.
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step8.png
 
