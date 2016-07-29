@@ -1,6 +1,6 @@
-============================
-How to contribute on Windows
-============================
+================================================================
+How to contribute to DreamHost Cloud Documentation using Windows
+================================================================
 
 .. csv-table::
     :header: "Table of Contents"
@@ -19,11 +19,12 @@ How to contribute on Windows
 Introduction
 ~~~~~~~~~~~~
 
-The DreamHost Cloud documentation is available in the
-`DreamHost Knowledge Base <https://help.dreamhost.com/hc/en-us>`_.
-If you notice something needing correction, or you wish to contribute an
-awesome cloud-related article to the knowledge base, this guide can be used to
-report or correct the issue yourself.
+The DreamHost Cloud documentation is published on the
+`DreamHost Knowledge Base <https://help.dreamhost.com/hc/en-us>`_, while the
+source documents are stored on GitHub.  If you notice something needing
+correction, or you wish to contribute an awesome cloud-related article to the
+knowledge base, this guide can be used to report or correct the issue yourself,
+on GitHub.
 
 This guide assumes that the contributor is using a Windows 7 or Windows 10
 system, however much of the contents will work on other operating systems
@@ -44,10 +45,10 @@ DreamHost Cloud Documentation Basics
 The DreamHost Cloud documentation is stored on GitHub in the `dreamcloud-docs <https://github.com/dreamhost/dreamcloud-docs>`_
 repository with each article being stored in `RST <http://docutils.sourceforge.net/rst.html>`_
 (reStructuredText) format.  For RST examples and our style guideline, please
-visit the `styleguide.rst <https://github.com/dreamhost/dreamcloud-docs/blob/master/styleguide.rst>`_ file available in GitHub.
+check out `styleguide.rst <https://github.com/dreamhost/dreamcloud-docs/blob/master/styleguide.rst>`_.
 
 From the RST files, the contents are processed and published to the DreamHost
-Knowledge Base.
+Knowledge Base automatically after each change to the repository.
 
 Required Tools
 ~~~~~~~~~~~~~~
