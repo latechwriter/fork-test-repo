@@ -71,12 +71,12 @@ with the only addition being the Python interpreter.
   that sounds like it may be close to you, otherwise the mirrors.kernel.org
   selection is a good default.
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-cygwin-install-python.png
+
 * Select the packages to install.  The default packages are sufficient however
   python needs to be added.  In the search box type "python", and then under
   "Interpreters" find "python" and click on "Skip" to have it change to a version
   instead like shown below.
-
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-cygwin-install-python.png
 
 Continue the rest of the install selecting the defaults.
 
@@ -109,14 +109,14 @@ and some nice features like easy comparing of files and one-click commits and
 pull requests.  This software can be downloaded at `https://desktop.github.com/ <https://desktop.github.com/>`_
 for both Windows and Mac systems.
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step1.png
+
 After installation, you will be asked to setup your GitHub client.  First,
 enter your user and password for the GitHub website:
 
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step1.png
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step2.png
 
 The second page wants details about your GitHub name and email address:
-
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step2.png
 
 and the last window wants repositories selected, and it is fine
 to skip this step.
@@ -124,23 +124,23 @@ to skip this step.
 Fork and clone the repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step3.png
+
 From the GitHub website, browse to the `dreamcloud-docs`_
 repository and look in the top right corner for the "Fork" button.
 
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step3.png
-
 This will make a fork of our repository in your own GitHub account.
+
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step4.png
 
 Back in the GitHub client, clicking the "+" button on the top left, then the
 "Clone" tab below it, you should see your recently forked repo called
 dreamcloud-docs.  Click it and select the "Clone dreamcloud-docs" button below.
 
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step4.png
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step5.png
 
 The GitHub client will ask you to confirm the location of the clone, and it is
 recommended for simplicity to select the default of Documents and GitHub.
-
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step5.png
 
 Making your change or contribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -180,21 +180,21 @@ Then run tox:
 
     $ tox
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-cygwin-tox-output.png
+
 This process can take a while to complete, as it makes 8000+ files and
 generates content.  If the process completes without error, you can view the
 HTML output by browsing in Windows Explorer to the Documents folder, then
 GitHub, dreamcloud-docs, build, html and then click on index.html.
 
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-cygwin-tox-output.png
-
 The index page will have a link for all generated documents, so you can search
 it to find the document or search in that html directory for the file you want
 to verify.
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-tox-syntax-error.png
+
 If there are errors, the output will give you details on where to look for
 them.  Here is an example of a purposely broken title in a file:
-
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-tox-syntax-error.png
 
 The second line points the the file that has an error, the ":1:" indicates
 the line number that has the error, and the reason for the error at the end.
@@ -212,10 +212,10 @@ right-click it and select discard changes.  A diff of the changes made appear
 on the right pane of the client.  If everything looks correct, it is time to do
 a commit.
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step6.png
+
 Give the commit a name, and a comment and then click the "Commit to master"
 button:
-
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step6.png
 
 Submit a pull request
 ~~~~~~~~~~~~~~~~~~~~~
@@ -225,14 +225,14 @@ change was made, and it is requested to send it to their repository.  They then
 have the option to review it, make changes, accept or decline it.  In this case
 the owners are the DreamHost Knowledge Base team and DreamHost Cloud team.
 
+.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step7.png
+
 Give the pull request a name, a comment, and then click the "Send pull request"
 button:
 
-.. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step7.png
-
-If everything submits as expected, this icon will appear:
-
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step8.png
+
+If everything submits as expected, this icon will appear.
 
 The pull request will appear on the GitHub website on the
 `pull requests <https://github.com/dreamhost/dreamcloud-docs/pulls>`_ page.  The
