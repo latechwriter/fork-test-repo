@@ -29,8 +29,6 @@ This guide assumes that the contributor is using a Windows 7 or Windows 10
 system, however much of the contents will work on other operating systems
 with minor modifications.
 
-.. _REPORT:
-
 Reporting Issues
 ~~~~~~~~~~~~~~~~
 
@@ -39,8 +37,6 @@ an issue on the `GitHub Issues <https://github.com/dreamhost/dreamcloud-docs/iss
 Our team will be notified of the issue and will fix it for you.
 Alternatively, you can submit a ticket via the `DreamHost Support <https://panel.dreamhost.com/index.cgi?tree=support.msg&>`_
 about the needed correction.
-
-.. _BASICS:
 
 DreamHost Cloud Documentation Basics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,8 +48,6 @@ visit the `styleguide.rst <https://github.com/dreamhost/dreamcloud-docs/blob/mas
 
 From the RST files, the contents are processed and published to the DreamHost
 Knowledge Base.
-
-.. _TOOLS:
 
 Required Tools
 ~~~~~~~~~~~~~~
@@ -127,8 +121,6 @@ The second page wants details about your GitHub name and email address:
 and the last window wants repositories selected, and it is fine
 to skip this step.
 
-.. _FORK:
-
 Fork and clone the repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -150,8 +142,6 @@ recommended for simplicity to select the default of Documents and GitHub.
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step5.png
 
-.. _CHANGE:
-
 Making your change or contribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -164,8 +154,6 @@ Navigate in Windows Explorer to your users "Documents", "GitHub" and then
 "dreamcloud-docs" directory, to find the source code.  Inside the "source"
 directory is where the RST and image files are located, separated into
 different directories for dreamobjects and dreamcompute.
-
-.. _TESTING:
 
 Testing your change with tox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -215,8 +203,6 @@ The text is also outputted that contains the error, in this case the title
 should have "=" the full length of the title.  It could be fixed, and then
 "tox" ran again until all errors are corrected.
 
-.. _COMMIT:
-
 Commit your change
 ~~~~~~~~~~~~~~~~~~
 
@@ -230,8 +216,6 @@ Give the commit a name, and a comment and then click the "Commit to master"
 button:
 
 .. figure:: source/dreamcompute/tutorials/images/contribute-windows/contrib-github-step6.png
-
-.. _PULL:
 
 Submit a pull request
 ~~~~~~~~~~~~~~~~~~~~~
@@ -255,8 +239,6 @@ The pull request will appear on the GitHub website on the
 DreamHost teams will check out the commit, and make comments and suggestions
 as needed, and if all looks well, will accept it into the repository.  GitHub
 will notify all parties involved about comments, and when it is accepted.
-
-.. _CLEAN:
 
 Cleaning up
 ~~~~~~~~~~~
