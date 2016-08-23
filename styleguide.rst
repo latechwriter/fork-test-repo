@@ -8,7 +8,7 @@ DreamCompute and DreamObjects documentation style guide
     `Checklist <#checklist>`_
     `RST formatting style <#rst-formatting-style>`_
     `Grammar and mechanics <#grammar-and-mechanics>`_
-    `Voice, tone, and verb tense <#voice-tone-and-verb-tense>`_
+    `Voice, tone, and verb tense <#voice,-tone,-and-verb-tense>`_
     `Formatting <#formatting>`_
     `Further reading <#further-reading>`_
 
