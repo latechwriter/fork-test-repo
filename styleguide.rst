@@ -284,7 +284,7 @@ consistency, allowing the reader to quickly comprehend
 the information you present.
 
 Spelling, grammar, and punctuation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 Typos must always be corrected, obviously. Spell checker is
 never 100% accurate, so reading through every article is imperative.
@@ -295,7 +295,7 @@ correcting those common gotchas (such as "there/their", "form/from",
 run-on sentences.
 
 Avoid run-on sentences
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 It's very easy to cram several technical details into a single run-on
 sentence. This usually happens as a "stream of thought" when the
@@ -304,7 +304,7 @@ the user's experience reading it. Make sure every sentence is clear
 and concise so the information is not lost on the user.
 
 Avoid exclamation points
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 It's easy to get carried away with exclamation points to highlight important
 information. However, this can quickly become distracting to the
@@ -312,7 +312,7 @@ reader. Rely instead on using language to emphasize importance and limit the
 use of exclamation points, except only in the most urgent situations!
 
 Capitalize article title and section headings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 We use "down style" — we only capitalize the first word in article titles and
 section headings, except when a proper noun exists, which is always
@@ -323,15 +323,15 @@ Also, in most cases, don't capitalize the first word after a colon (:),
 semicolon (;), or en/em dashes (–, —), unless it's a proper noun. There are
 exceptions, of course.
 
-Serial comma (or, "the Oxford comma")
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Using a serial comma (or, "the Oxford comma")
+---------------------------------------------
 
 In a list, we always use a serial comma to avoid confusion.
 Example: "I had eggs, toast, and orange juice." (The final comma prevents
 confusion).
 
 Using acronyms
-^^^^^^^^^^^^^^
+--------------
 
 Always spell out an acronym on first instance (and put the actual acronym in
 parentheses directly after it), unless it's a commonly used one, such as HTML,
@@ -347,7 +347,7 @@ But, use an apostrophe to indicate possession:
     The SSL's encryption method can fail.
 
 A word about how to spell certain acronyms
-******************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Always capitalize programming languages, and also pay close attention to
 internal capitalization rules for others. This is how to spell some of the
@@ -366,7 +366,7 @@ When in doubt, visit the official website (or `Wikipedia
 company, language, or acronym is spelled.
 
 Can I use an ampersand (&) in a sentence?
-*****************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Generally speaking, spell out "and" and do not use an ampersand in
 a heading or sentence to replace it. Using an ampersand (and other symbols)
@@ -378,14 +378,14 @@ appears in a command (leave it alone!)—but as much as possible, do not use the
 ampersand to replace an 'and' in common sentences and headings.
 
 Can I use contractions?
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 Yes, it's perfectly acceptable to use an apostrophe to contract a word:
 
     Don't, won't, it's, you're, and so on.
 
 But, be careful with the possessive usage
-*****************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Incorrect: Use the customers credit card on file.
     Correct: Use the customer's credit card on file.
@@ -405,7 +405,7 @@ In technical writing, there are several recommended guidelines
 that you should use throughout your documentation.
 
 Use the active voice
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Using the passive voice presents ambiguity, complexity, and hides
 the subject. Get rid of it wherever possible, and use the active voice,
@@ -421,7 +421,7 @@ Here is a simple example:
       voice)
 
 "We, us, our" (tone)
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 When refering to DreamHost, do not use the word "we", use "DreamHost" instead.
 
@@ -432,20 +432,20 @@ Vs.
 "*We* recommend you always create a backup of your website."
 
 What tone do I use in technical documentation?
-**********************************************
+----------------------------------------------
 
 Be warm, professional, clear, and direct. Avoid hyperbolic, overly casual, and
 wordy content, which can distract the reader from accomplishing a goal.
 
 Is humor acceptable?
-********************
+--------------------
 
 It's generally a good idea to avoid any attempt at humor. This is because
 everyone's take on a joke can vary and may send the message of an
 unprofessional tone.
 
 Avoid the future tense
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 Use the present tense to avoid ambiguity
 
@@ -471,7 +471,7 @@ concept, good formatting ensures that your readers are
 prepared to quickly handle the task at hand.
 
 Avoid the 'wall of text'
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 Wherever possible, eliminate extra words and organize your
 content to maximize quick usage by your readers. Remember,
@@ -483,23 +483,24 @@ they're under pressure to set up a new install or fix a problem.
 
 When reviewing a long paragraph of two or more sentences, ask
 yourself the following questions:
-    * Can I easily eliminate extra words?
-    * Can I put major points in a bullet list instead?
-    * Are these steps part of a procedure? Can I use a numbered
-      list instead?
-    * Can I use a table to better organize the information?
-    * Does a graphic (image or screenshot) tell a better story?
-    * Can you use a link to an outside source instead?
+
+* Can I easily eliminate extra words?
+* Can I put major points in a bullet list instead?
+* Are these steps part of a procedure? Can I use a numbered 
+  list instead?
+* Can I use a table to better organize the information?
+* Does a graphic (image or screenshot) tell a better story?
+* Can you use a link to an outside source instead?
 
 Add an 'overview' section
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 Overviews are especially helpful when describing a technical process for the
 first time. Just a sentence or two usually suffices, and greatly helps the
 reader prepare for the ensuing information or task.
 
 Use "example.com"
-^^^^^^^^^^^^^^^^^
+-----------------
 
 For illustration purposes, you may sometimes see
 'your-domain.com' , 'mydomain.com', or 'domain.com' (and many other
@@ -509,7 +510,7 @@ examples in documents. Never use the other variations of 'domain.com' as they
 are often real websites, typically from competitive companies.
 
 Remove extra empty spaces
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 Extra empty spaces commonly show up after a period, but sometimes occur
 elsewhere. Always remove extra spaces (remember, only one space after
@@ -517,7 +518,7 @@ a period) — the only exception being when showing a command line
 example where extra spaces may appear. In that case, always leave it alone.
 
 Using lists
-^^^^^^^^^^^
+-----------
 
 There are two types of lists: bulleted (unordered) and
 numbered (ordered).
@@ -548,7 +549,7 @@ must take to accomplish some sort of task. Also, always use a command verb
 sure", "click", "move", and "upload".
 
 Using graphics and callouts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 A well-designed flow chart, screenshot with callouts,
 or even a vector image greatly helps the reader understand a process or
@@ -569,7 +570,7 @@ to ensure maximum online readability and comprehension:
       on the image).
 
 Highlighting content in an image
-********************************
+--------------------------------
 
 Use a red or black square or rectangle to highlight a portion of an image. Do
 not use a circle to highlight content:
@@ -577,13 +578,13 @@ not use a circle to highlight content:
 .. image:: source/dreamcompute/gettingstarted/images/styleguide/styleguide1.png
 
 What image format should be used?
-*********************************
+---------------------------------
 
 Always use .png files for images. In the case of icons (such as icons used in
 various alert boxes), we use .svg files.
 
-A word about screenshots in a numbered list
-*******************************************
+How to handle screenshots in a numbered list
+--------------------------------------------
 
 Always put the step below the image that describes an action you wish a user to
 take based on a screenshot.
