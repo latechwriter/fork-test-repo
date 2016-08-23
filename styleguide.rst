@@ -357,13 +357,13 @@ Always capitalize programming languages, and also pay close attention to
 internal capitalization rules for others. This is how to spell some of the
 major ones that are commonly used:
 
-    * PHP, Ruby, JavaScript, HTML, XML, Perl, Ajax, JSON, JQuery, Unix,
-      Python, MySQL, phpMyAdmin, and CSS.
+    PHP, Ruby, JavaScript, HTML, XML, Perl, Ajax, JSON, JQuery, Unix, Python, 
+    MySQL, phpMyAdmin, and CSS.
 
-    And, also:
+And, also:
 
-    * DreamHost, Panel, WordPress, WHOIS, Webmail, SquirrelMail,
-      Roundcube, Wikipedia, and Internet.
+    DreamHost, Panel, WordPress, WHOIS, Webmail, SquirrelMail, Roundcube, 
+    Wikipedia, and Internet.
 
 When in doubt, visit the official website (or `Wikipedia
 <https://www.wikipedia.org/>`__) and find out how a
