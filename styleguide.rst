@@ -389,14 +389,15 @@ Yes, it's perfectly acceptable to use an apostrophe to contract a word:
     Don't, won't, it's, you're, and so on.
 
 But, be careful with the possessive usage
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Incorrect: Use the customers credit card on file.
+
     Correct: Use the customer's credit card on file.
 
 Of course, there are exceptions.
 
     Incorrect: Who's domain is on the list? It's contents are empty.
+
     Correct: Whose domain is on the list? Its contents are empty.
 
 Voice and tone
