@@ -8,7 +8,7 @@ DreamCompute and DreamObjects documentation style guide
     `Checklist <#checklist>`_
     `RST formatting style <#rst-formatting-style>`_
     `Grammar and mechanics <#grammar-and-mechanics>`_
-    `Voice, tone, and verb tense <#voice-tone-and-verb-tense>`_
+    `Voice and tone <#voice-and-tone>`_
     `Formatting <#formatting>`_
     `Further reading <#further-reading>`_
 
@@ -399,8 +399,8 @@ Of course, there are exceptions.
     Incorrect: Who's domain is on the list? It's contents are empty.
     Correct: Whose domain is on the list? Its contents are empty.
 
-Voice, tone, and verb tense
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Voice and tone
+~~~~~~~~~~~~~~
 
 Using a consistent voice and tone also ensures rapid engagement of your
 written content.
