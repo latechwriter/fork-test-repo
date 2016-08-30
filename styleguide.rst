@@ -581,11 +581,28 @@ not use a circle to highlight content:
 
 .. image:: source/dreamcompute/gettingstarted/images/styleguide/styleguide1.png
 
-What image format should be used?
+What image format should I use?
 ---------------------------------
 
 Always use .png files for images. In the case of icons (such as icons used in
 various alert boxes), we use .svg files.
+
+Any other image best practices I should follow?
+-----------------------------------------------
+
+Use the following general guidelines whenever you insert an image in an article:
+
+* When displaying a screenshot, only show the relevant features (i.e, don't 
+  include the entire window).
+* Images should be left aligned, indented slightly from body text.
+* Do not use drop shadows or other graphical affects within an image.
+* Make sure the image is not too large for a page, and never use an image
+  that forces users to scroll (either horizontally or vertically).
+* Generally speaking, 900 px is the maximum width for images, but there may be 
+  exceptions. If needed, reduce or crop an image to ensure better visability.
+* Refer to GitHub-specific documentation on where to store your images. You may
+  also use a central repository, cloud service, and/or CDN to deliver your 
+  assets.
 
 How to handle screenshots in a numbered list
 --------------------------------------------
