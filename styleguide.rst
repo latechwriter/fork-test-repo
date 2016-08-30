@@ -430,11 +430,11 @@ Here is a simple example:
 
 When refering to DreamHost, do not use the word "we", use "DreamHost" instead.
 
-"*DreamHost* recommends you always create a backup of your website."
+    "*DreamHost* recommends you always create a backup of your website."
 
 Vs.
 
-"*We* recommend you always create a backup of your website."
+    "*We* recommend you always create a backup of your website."
 
 What tone do I use in technical documentation?
 ----------------------------------------------
@@ -561,18 +561,17 @@ or even a vector image greatly helps the reader understand a process or
 procedure. As you design your graphic, please adhere to the following practices
 to ensure maximum online readability and comprehension:
 
-    * Always use a sans serif font (such as Arial or Helvetica) for text within
-      an image or callouts.
-    * When designing a flow chart, keep the transitions moving either
-      top->down, or left->right.
-    * Do not use fancy arrows or arrow-heads. Simple is better, and anything
-      overly ornate distracts the reader and diminishes the meaning of your
-      graphic.
-    * Remain consistent with line widths (or stroke size), coloring, and other
-      graphical elements (such as arrows).
-    * In general, use the least amount of text as possible within a callout. If
-      you need to include more text, put it instead in the article itself (and not
-      on the image).
+* Always use a sans serif font (such as Arial or Helvetica) for text within
+  an image or callouts.
+* When designing a flow chart, keep the transitions moving either
+  top->down, or left->right.
+* Do not use fancy arrows or arrow-heads. Simple is better, and anything
+  overly ornate distracts the reader and diminishes the meaning of your graphic.
+* Remain consistent with line widths (or stroke size), coloring, and other
+  graphical elements (such as arrows).
+* In general, use the least amount of text as possible within a callout. If you 
+  need to include more text, put it instead in the article itself (and not on 
+  the image).
 
 Highlighting content in an image
 --------------------------------
